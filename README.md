@@ -4,7 +4,7 @@
 ![GitHub forks](https://img.shields.io/github/forks/codebucks27/Next.js-portfolio_v2?style=social&logo=KashFlow&maxAge=3600)&nbsp;&nbsp;
 ![Github Followers](https://img.shields.io/github/followers/codebucks27.svg?style=social&label=Follow)&nbsp;&nbsp;<br /> -->
 
-This repository contains starter code for Portfolio website created using NextJs. <br />
+This repository contains version 2 code for my Portfolio website created using NextJs. <br />
 
 <!-- For Demo and Final Code checkout following link👇: <br />
 [Nextjs Portfolio Website](https://devdreaming.com//videos/nextjs-tutorial-build-portfolio-tailwind-css-framer-motion) <br />
