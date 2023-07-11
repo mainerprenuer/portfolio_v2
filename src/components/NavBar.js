@@ -2,6 +2,8 @@ import React from 'react'
 import { useRouter } from 'next/router'
 import Link from 'next/link'
 import Logo from '../components/Logo'
+import { TwitterIcon, LinkedInIcon, GithubIcon } from './Icons'
+import {motion} from 'framer-motion'
 
 
 const CustomLink = ({ href, title, className='' }) => {
@@ -32,12 +34,30 @@ const NavBar = () => {
 
         </nav>
 
-        <nav>
-            <Link href="/" target={"_blank"}>W</Link>
-            <Link href="/" target={"_blank"}>W</Link>
-            <Link href="/" target={"_blank"}>W</Link>
-            <Link href="/" target={"_blank"}>W</Link>
-            <Link href="/" target={"_blank"}>W</Link>
+        <nav className='flex items-center justify-center flex-wrap'>
+            <motion.a href="https://twitter.com/moustymainer" target={"_blank"}
+            className='w-6 mr-3'
+            whileHover={{y:-2}}
+            whileTap={{scale:0.9}}
+            >
+              <TwitterIcon />
+            </motion.a>
+            <motion.a href="https://github.com/mainerprenuer" target={"_blank"}
+            className='w-6 mx-3'
+            whileHover={{y:-2}}
+            whileTap={{scale:0.9}}
+            >
+              <LinkedInIcon />
+            </motion.a>
+            <motion.a href="https://linkedln.com/in/moustymainer" target={"_blank"}
+            className='w-6 ml-3'
+            whileHover={{y:-2}}
+            whileTap={{scale:0.9}}
+            >
+              <GithubIcon />
+            </motion.a>
+            {/* <Link href="/" target={"_blank"}>W</Link>
+            <Link href="/" target={"_blank"}>W</Link> */}
         </nav>
 
         <div className='absolute left-[50%] top-2 translate-x-[-50%] '>
