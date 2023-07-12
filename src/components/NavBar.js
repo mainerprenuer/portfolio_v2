@@ -47,14 +47,14 @@ const NavBar = () => {
             whileHover={{y:-2}}
             whileTap={{scale:0.9}}
             >
-              <LinkedInIcon />
+              <GithubIcon />
             </motion.a>
             <motion.a href="https://linkedln.com/in/moustymainer" target={"_blank"}
             className='w-6 ml-3'
             whileHover={{y:-2}}
             whileTap={{scale:0.9}}
             >
-              <GithubIcon />
+              <LinkedInIcon />
             </motion.a>
             {/* <Link href="/" target={"_blank"}>W</Link>
             <Link href="/" target={"_blank"}>W</Link> */}
