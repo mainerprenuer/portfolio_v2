@@ -12,6 +12,7 @@ const Skill = ({name, x, y}) => {
             initialScale={{x:0,y:0}}
             animate={{x:x, y:y}}
             transition={{duration:1.5}}
+            viewport={{once:true}}
             >
                 {name} 
             </motion.div>
