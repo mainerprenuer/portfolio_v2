@@ -30,26 +30,27 @@ const Skills = () => {
                 web 
             </motion.div>
 
-            <Skill name="HTML" x="-20vw" y="2vw" />
-            <Skill name="CSS" x="-5vw" y="-8vw" />
-            <Skill name="Javascript" x="20vw" y="6vw" />
-            <Skill name="Typescript" x="15vw" y="17vw" />
-            <Skill name="React" x="7vw" y="-20vw" />
-            <Skill name="NextJs" x="-8vw" y="-17vw" />
-            <Skill name="NestJs" x="-18vw" y="-3vw" />
-            <Skill name="MongoDB" x="-5vw" y="25vw" />
-            <Skill name="MySql" x="-5vw" y="-10vw" />
-            <Skill name="TailwindCSS" x="-5vw" y="-10vw" />
-            <Skill name="Figma" x="-5vw" y="-10vw" />
-            <Skill name="Firebase" x="-5vw" y="-10vw" />
-            <Skill name="Heroku" x="-5vw" y="-10vw" />
-            <Skill name="Vercel" x="-5vw" y="-10vw" />
-            <Skill name="Git" x="-5vw" y="-10vw" />
-            <Skill name="Python" x="-5vw" y="-10vw" />
-            <Skill name="Flutter" x="-5vw" y="-10vw" />
-            <Skill name="Dart" x="-5vw" y="-10vw" />
-            <Skill name="Docker" x="-5vw" y="-10vw" />
-            <Skill name="Linux" x="-5vw" y="-10vw" />
+            <Skill name="CSS" x="49vw" y="2vw" />
+            <Skill name="HTML" x="60vw" y="-18vw" />
+            <Skill name="Javascript" x="24vw" y="6vw" />
+            <Skill name="Typescript" x="82vw" y="-9vw" />
+            <Skill name="React" x="50vw" y="-12vw" />
+            <Skill name="NextJs" x="4vw" y="-7vw" />
+            <Skill name="NestJs" x="43vw" y="-2vw" />
+            <Skill name="Dart" x="0vw" y="-22vw" />
+            <Skill name="MySql" x="-25vw" y="18vw" />
+            <Skill name="Tailwind CSS" x="-4vw" y="25vw" />
+            <Skill name="Figma" x="-25vw" y="15vw" />
+            <Skill name="Firebase" x="6vw" y="20vw" />
+            <Skill name="Heroku" x="-10vw" y="-20vw" />
+            <Skill name="Vercel" x="-43vw" y="-1vw" />
+            <Skill name="Git" x="-43vw" y="8vw" />
+            <Skill name="Python" x="-60vw" y="-10vw" />
+            <Skill name="Flutter" x="-85vw" y="-20vw" />
+            <Skill name="MongoDB" x="-50vw" y="8vw" />
+            <Skill name="Docker" x="-35vw" y="10vw" />
+            <Skill name="Linux" x="-46vw" y="-25vw" /> 
+            <Skill name="PostgreSql" x="-40vw" y="1vw" /> 
          </div>
     </>
   )
