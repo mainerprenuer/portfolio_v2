@@ -114,13 +114,31 @@ type="Featured Project"
                     />
                 </div>
                 <div className='col-span-6'>
-                    Projects - 2
+                <Project 
+title="Crypto Screener Application"
+img={project1}
+github="https://github.com/mainerprenuer"
+link="/"
+type="Featured Project"
+                    />
                 </div>
                 <div className='col-span-6'>
-                    Projects - 3
+                <Project 
+title="Crypto Screener Application"
+img={project1}
+github="https://github.com/mainerprenuer"
+link="/"
+type="Featured Project"
+                    />
                 </div>
                 <div className='col-span-6'>
-                    Projects - 4
+                <Project 
+title="Crypto Screener Application"
+img={project1}
+github="https://github.com/mainerprenuer"
+link="/"
+type="Featured Project"
+                    />
                 </div>
             </div>
             </Layout>
