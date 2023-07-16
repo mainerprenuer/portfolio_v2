@@ -5,7 +5,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 import article1 from "../../public/images/articles/pagination component in reactjs.jpg"
-import article2 from "../../public/images/articles/form validation in reactjs using custom react hook.png"
+import article2 from "../../public/images/articles/create loading screen in react js.jpg"
 import { motion } from 'framer-motion'
 
 
@@ -59,12 +59,16 @@ link="/"
                     />
                     <FeaturedArticle 
                     
-title="Build A Custom Pagination Component In Reactjs From Scratch"
-summary="Learn how to build a custom pagination component in ReactJS from scratch. 
-Follow this step-by-step guide to integrate Pagination component in your ReactJS project."
-time="9 min read"
+title="Creating Stunning Loading Screens In React: Build 3 Types Of Loading Screens"
+summary="Learn how to create stunning loading screens in React with 3 different methods. 
+Discover how to use React-Loading, React-Lottie & build a custom loading screen. 
+Improve the user experience."
+time="10 min read"
 img={article2}
 link="/"
+
+
+
                      />
                 </ul>
                 <h2 className='font-bold text-4xl w-full text-center my-16'>All Articles</h2>
