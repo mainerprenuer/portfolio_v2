@@ -11,9 +11,14 @@ import project1 from "../../public/images/projects/crypto-screener-cover-image.j
 const FeaturedProject = ({type, title, summary, img, link, github}) => {
 
     return(
-        <article className='w-full flex items-center justify-between 
+        <article className='w-full flex items-center justify-between relative rounded-br-2xl
         rounded-3xl border border-solid border-dark bg-light shadow-2xl p-12
         '>
+        
+         <div className='absolute top-0 -right-3 -z-10 w-[101%] h-[103%] rounded-[2.5rem] bg-dark
+         rounded-br-3xl
+         '/>
+
 
         <Link href={link} target="_blank"
         className='w-1/2 cursor-pointer overflow-hidden rounded-lg'
@@ -51,6 +56,11 @@ const Project = ({title, type, img, link, github}) => {
         <article className="w-full flex flex-col items-center justify-center rounded-2xl
         border border-solid border-dark bg-light p-6 relative
         ">
+
+<div className='absolute top-0 -right-3 -z-10 w-[101%] h-[103%] rounded-[2rem] bg-dark
+         rounded-br-3xl
+         '/>
+
             <Link href={link} target="_blank"
         className='w-full cursor-pointer overflow-hidden rounded-lg'
         >
@@ -89,7 +99,7 @@ const projects = () => {
             <Layout className='pt-16'>
                 <AnimatedText text="Knowledge is power!" className='mb-16 '/>
 
-            <div className='grid grid-cols-12 gap-24'>
+            <div className='grid grid-cols-12 gap-24 gap-y-32'>
                 <div className='col-span-12'>
                     <FeaturedProject 
 title="Crypto Screener Application"
