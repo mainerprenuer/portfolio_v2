@@ -31,7 +31,6 @@ const useThemeSwitcher = () => {
                }else{
                    document.documentElement.classList.remove("dark");
                }
-
             }
         }
 
