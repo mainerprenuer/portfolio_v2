@@ -62,9 +62,7 @@ const NavBar = () => {
             >
               <LinkedInIcon />
             </motion.a>
-            {/* {/* <Link href="/" target={"_blank"}>W</Link> */}
-            <Link href="/" target={"_blank"}>W</Link> 
-        
+            {/* {/* <Link href="/" target={"_blank"}>W</Link> */}        
         <button 
         onClick={() => setMode(mode === "light" ? "dark" : "light")}
         className="ml-3 flex items-center justify-center rounded-full p-1">
