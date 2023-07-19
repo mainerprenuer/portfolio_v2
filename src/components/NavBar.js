@@ -65,16 +65,17 @@ const NavBar = () => {
             {/* {/* <Link href="/" target={"_blank"}>W</Link> */}        
         <button 
         onClick={() => setMode(mode === "light" ? "dark" : "light")}
-        className="ml-3 flex items-center justify-center rounded-full p-1">
+        className="ml-3 flex items-center justify-center rounded-full p-1"
+        >
         {
           mode === "dark" 
           ?
           <SunIcon className={"fill-dark"} /> 
           :
-          <MoonIcon className={"fill-light"} />
+          <MoonIcon className={"fill-dark"} />
         }
         </button>
-
+  
         </nav>
 
         <div className='absolute left-[50%] top-2 translate-x-[-50%] '>
