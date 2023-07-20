@@ -17,12 +17,30 @@ export default function MyApp({ Component, pageProps }) {
     <Head>
       <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
+
+<script>
+  // It's best to inline this in `head` to avoid FOUC (flash of unstyled content) when changing pages or themes
+  if (
+    localStorage.getItem('color-theme') === 'dark' ||
+    (!('color-theme' in localStorage) &&
+      window.matchMedia('(prefers-color-scheme: dark)').matches)
+  ) {
+    document.documentElement.classList.add('dark')
+  } else {
+    document.documentElement.classList.remove('dark')
+  }
+</script>
+<script src="../path/to/flowbite/dist/flowbite.bundle.js"></script>
+
+
     </Head>
     <main className={`${montserrat.variable} font-mont bg-light w-full min-h-screen`}>
       <NavBar />  
       <Component {...pageProps} />
       <Footer />
     </main>
+
+    
     </>
   )
 }
