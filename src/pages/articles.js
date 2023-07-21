@@ -146,7 +146,7 @@ link="/"
                         link="/"
                     />
                     <Article 
-                        title="Form Validation In Reactjs: Build A Reusable Custom Hook For Inputs And Error Handling"
+                        title="Understanding the basics and key concepts of Object-Oriented Programming."
                         date="July 17, 2023"
                         img={article3}
                         link="/"

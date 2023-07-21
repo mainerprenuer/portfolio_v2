@@ -2,7 +2,7 @@ import React from 'react'
 import { MoonIcon, SunIcon } from '../Icons';
 
 const useThemeSwitcher = () => {
-    const MoonIcon = document.getElementById('theme-toggle-dark-icon');
+    const <MoonIcon/> = document.getElementById('theme-toggle-dark-icon');
     const SunIcon = document.getElementById('theme-toggle-light-icon');
     
     // Change the icons inside the button based on previous settings
@@ -17,7 +17,7 @@ const useThemeSwitcher = () => {
     themeToggleBtn.addEventListener('click', function() {
     
         // toggle icons inside button
-        MoonIcon.classList.toggle('hidden');
+        <MoonIcon/>;classList.toggle('hidden');
         SunIcon.classList.toggle('hidden');
     
         // if set via local storage previously
