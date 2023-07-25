@@ -7,6 +7,7 @@ import {motion} from 'framer-motion'
 import useThemeSwitcher from './hooks/useThemeSwitcher'
 
 
+
 const CustomLink = ({ href, title, className='' }) => {
   const router = useRouter();
   console.log(router)
@@ -20,7 +21,7 @@ const CustomLink = ({ href, title, className='' }) => {
       `}>&nbsp;</span>
     </Link>
   )
-}
+};
 
 
 const NavBar = () => {
@@ -82,7 +83,7 @@ const NavBar = () => {
         <Logo />
         </div>
     </header>
-  )
-}
+  );
+};
 
 export default NavBar
