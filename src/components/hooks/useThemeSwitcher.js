@@ -29,12 +29,15 @@ const useThemeSwitcher = () => {
             }
         }
       }
+
+      handleChange();
       
       mediaQuery.addEventListener("change",handleChange)
 
       return () => mediaQuery.addEventListener("change",handleChange)
     
     }, [])
+
 
 
     useEffect(() => {
