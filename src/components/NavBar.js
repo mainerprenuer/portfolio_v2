@@ -173,9 +173,9 @@ const NavBar = () => {
         {
           mode === "dark" 
           ? 
-          <SunIcon className={"fill-dark"} /> 
+          <SunIcon className={"fill-dark"} onClick={handleClick}/> 
           :
-          <MoonIcon className={"fill-dark"} />
+          <MoonIcon className={"fill-dark"} onClick={handleClick}/>
         }
         </button>
   
