@@ -60,10 +60,10 @@ const Article = ({img, title, date, link}) => {
         viewport={{once:true}}
         className='relative w-full p-4 py-6 my-4 rounded-xl flex items-center
         justify-between bg-light text-dark first:mt-0 border border-solid border-dark
-        border-r-4 border-b-4
+        border-r-4 border-b-4 dark:bg-dark dark:text-light dark:border-light 
         '>
             <MovingImg title={title} img={img} link={link}/>
-            <span className='text-primary font-semibold pl-4'>{date}</span>
+            <span className='text-primary dark:text-primaryDark font-semibold pl-4'>{date}</span>
         </motion.li>
     )
 }
@@ -71,13 +71,14 @@ const Article = ({img, title, date, link}) => {
 const FeaturedArticle = ({img, title, time, summary, link}) => {
 
     return(
-        <li className='relative col-span-1 w-full p-4 bg-light border border-solid border-dark rounded-2xl'>
+        <li className='relative col-span-1 w-full p-4 bg-light border border-solid border-dark
+        dark:bg-dark dark:text-light dark:border-light rounded-2xl'>
             <Link href={link} target="_blank"
-        className='w-full inline-block  cursor-pointer overflow-hidden rounded-lg'
+        className='w-full inline-block cursor-pointer overflow-hidden rounded-lg'
         >
 
 <div className='absolute top-0 -right-3 -z-10 w-[101%] h-[103%] rounded-[2rem] bg-dark
-         rounded-br-3xl
+         dark:bg-light rounded-br-3xl
          '/>
 
             <FramerImage src={img} alt={title} className="w-full h-auto"
@@ -89,7 +90,7 @@ const FeaturedArticle = ({img, title, time, summary, link}) => {
             <h2 className='capitalize text-2xl font-bold mt-4 my-2 hover:underline'>{title}</h2>
         </Link>
         <p className='text-sm mb-2'>{summary}</p>
-        <span className='text-primary font-semibold'>{time}</span>
+        <span className='text-primary dark:text-primaryDark font-semibold'>{time}</span>
         </li>
     )
 }
@@ -125,7 +126,7 @@ img={article2}
 link="/"
                      />
                 </ul>
-                <h2 className='font-bold text-4xl w-full text-center my-16 mt-32'>All Articles</h2>
+                <h2 className='font-bold text-4xl w-full text-center my-16 mt-32 dark:text-light'>All Articles</h2>
                 <ul>
                     <Article 
                         title="Form Validation In Reactjs: Build A Reusable Custom Hook For Inputs And Error Handling"
