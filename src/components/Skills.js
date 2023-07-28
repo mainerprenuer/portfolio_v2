@@ -43,14 +43,14 @@ const Skills = () => {
             <Skill name="ReactJs" x="-12vw" y="-4vw" />
             <Skill name="Technical writing" x="25vw" y="6vw" />
             <Skill name="NestJs" x="5vw" y="14vw" />
-            <Skill name="Database Management" x="20vw" y="-15vw" />
+            <Skill name="Figma" x="20vw" y="-15vw" />
             <Skill name="Content Creation" x="30vw" y="-6vw" />
             <Skill name="Linux " x="0vw" y="-19vw" />
-            <Skill name="Figma" x="-22vw" y="18vw" />
+            <Skill name="Database Management" x="-22vw" y="18vw" />
             <Skill name="Javascript" x="19vw" y="20vw" />
             <Skill name="Mobile Development" x="-29vw" y="-11vw" /> 
             <Skill name="NextJs" x="-15vw" y="9vw" />
-            <Skill name="Typescript" x="15vw" y="-1vw" />
+            <Skill name="Typescript" x="19vw" y="-1vw" />
             <Skill name="Problem Solving" x="-19vw" y="-24vw" /> 
          </div>
     </>
