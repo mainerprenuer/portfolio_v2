@@ -8,6 +8,7 @@ import article1 from "../../public/images/articles/pagination component in react
 import article2 from "../../public/images/articles/create loading screen in react js.jpg"
 import article3 from "../../public/images/articles/smooth scrolling in reactjs.png"
 import { motion, useMotionValue } from 'framer-motion'
+import TransitionEffect from '@/components/TransitionEffect'
 
 const FramerImage = motion(Image);
 
@@ -104,9 +105,10 @@ const articles = () => {
   return (
     <>
         <Head>
-            <title>Mousty Mainer | Articles Page</title> 
-            <meta name="description" content="any description" />
-        </Head>
+        <title>Mousty Mainer</title>
+        <meta name="Mousty Mainer" content="My Developer's Journey" />
+      </Head>
+      <TransitionEffect />
         <main className="w-full mb-16 flex flex-col items-center justify-center overflow-hidden">
             <Layout className='pt-16'>
                 <AnimatedText text="words can change the world!" className='mb-16 lg:!text-7xl sm:mb-8 sm:!text-6xl xs:!text-4xl'/>
