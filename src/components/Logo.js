@@ -15,9 +15,9 @@ const Logo = () => {
           backgroundColor: ["#121212", "rgba(62,182,70,1)","rgba(240,242,242,1)","rgba(62,182,70,1)","rgba(240,242,242,1)", "#121212"],
           transition: {duration: 1, repeat: Infinity}
         }}
-        >MM</MotionLink>
+        >🤓</MotionLink>
     </div> 
   )
 }
-240, 242, 242
+
 export default Logo
