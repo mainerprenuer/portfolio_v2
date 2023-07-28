@@ -39,9 +39,9 @@ const Skills = () => {
                 web 
             </motion.div>
 
-            <Skill name="Technical writing" x="35vw" y="2vw" />
+            <Skill name="TailwindCSS" x="35vw" y="2vw" />
             <Skill name="Content Creation" x="22vw" y="45vw" />
-            <Skill name="Tailwind CSS" x="-30vw" y="16vw" />
+            <Skill name="Technical writing" x="-30vw" y="16vw" />
             <Skill name="NestJs" x="14vw" y="9vw" />
             <Skill name="Database Management" x="10vw" y="29vw" />
             <Skill name="ReactJs" x="-28vw" y="-15vw" />
