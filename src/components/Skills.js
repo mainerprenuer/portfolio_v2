@@ -24,7 +24,7 @@ const Skills = () => {
   return (
     <>
          <h2 className='font-bold text-8xl mt-64 w-full text-center md:text-6xl md:mt:32'>Skills</h2>
-         <div className='w-full h-screen relative flex items-center justify-center rounded-full bg-circularLight dark:bg-circularDark
+         <div className='w-full h-screen relative flex items-center justify-center rounded-full font-semibold bg-circularLight dark:bg-circularDark
          lg:h-[80vh] sm:h-[60vh] xs:h-[50vh]
          lg:bg-circularLightLg lg:dark:bg-circularDarkLg
          md:bg-circularLightMd md:dark:bg-circularDarkMd
@@ -39,18 +39,19 @@ const Skills = () => {
                 web 
             </motion.div>
 
-            <Skill name="TailwindCSS" x="35vw" y="2vw" />
-            <Skill name="Content Creation" x="22vw" y="45vw" />
-            <Skill name="Technical writing" x="-30vw" y="16vw" />
-            <Skill name="NestJs" x="14vw" y="9vw" />
-            <Skill name="Database Management" x="10vw" y="29vw" />
-            <Skill name="ReactJs" x="-28vw" y="-15vw" />
-            <Skill name="Linux " x="28vw" y="-34vw" />
-            <Skill name="Figma" x="13vw" y="-13vw" />
-            <Skill name="Javascript" x="0vw" y="-32vw" />
-            <Skill name="Mobile Development" x="-25vw" y="39vw" />
-            <Skill name="NextJs" x="-16vw" y="-1vw" />
-            <Skill name="Problem Solving" x="-24vw" y="-40vw" />
+            <Skill name="TailwindCSS" x="-25vw" y="2vw" />
+            <Skill name="ReactJs" x="-10vw" y="-6vw" />
+            <Skill name="Technical writing" x="25vw" y="6vw" />
+            <Skill name="NestJs" x="5vw" y="14vw" />
+            <Skill name="Database Management" x="20vw" y="-15vw" />
+            <Skill name="Content Creation" x="32vw" y="-5vw" />
+            <Skill name="Linux " x="2vw" y="-19vw" />
+            <Skill name="Figma" x="-22vw" y="18vw" />
+            <Skill name="Javascript" x="19vw" y="20vw" />
+            <Skill name="Mobile Development" x="-29vw" y="-11vw" /> 
+            <Skill name="NextJs" x="-12vw" y="8vw" />
+            <Skill name="Typescript" x="15vw" y="-1vw" />
+            <Skill name="Problem Solving" x="-18vw" y="-22vw" /> 
          </div>
     </>
   )
