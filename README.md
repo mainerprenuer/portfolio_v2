@@ -1,4 +1,4 @@
-# Next.Js Website : Create a Stunning Portfolio Website with Nextjs, Tailwind CSS and Framer-motion🌟
+# Welcome To My Stunning Portfolio Website Built with Nextjs, Tailwind CSS and Framer-motion 🤓
 
 <!-- ![GitHub stars](https://img.shields.io/github/stars/codebucks27/Next.js-portfolio_v2?style=social&logo=ApacheSpark&label=Stars)&nbsp;&nbsp;
 ![GitHub forks](https://img.shields.io/github/forks/codebucks27/Next.js-portfolio_v2?style=social&logo=KashFlow&maxAge=3600)&nbsp;&nbsp;
