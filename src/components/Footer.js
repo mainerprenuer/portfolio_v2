@@ -15,7 +15,7 @@ const Footer = () => {
               underline-offset-2
               ' target={"_blank"}>Mousty Mainer</Link>
             </div>
-            <Link href="moustymainer.vercel.app" className='underline
+            <Link href="https://api.whatsapp.com/send?phone=+2347031343181" target="_blank" className='underline
               underline-offset-2'>Say hello</Link>
         </Layout>
     </footer>
