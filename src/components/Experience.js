@@ -50,46 +50,94 @@ const Experience = () => {
             <ul className='w-full flex flex-col items-start justify-between ml-4 xs:ml-2'>
                 <Details 
                     position="Software Engineer" 
-                    company="Google" 
-                    companyLink="http://www.google.com"
-                    time="2022-Present" 
-                    address="Mountain View, CA" 
-                    work="Worked on a team responsible for developing new features for Google's 
-                    search engine, including improving the accuracy and relevance of search results and 
-                    developing new tools for data analysis and visualization."
+                    company="Abokintech Inc." 
+                    companyLink="http://abokintech.vercel.app"
+                    time="2023-Present" 
+                    address="Remote, NGR" 
+                    work="I'm working at the intersection of design, brand, code, strategy and content; 
+                    helping organizations bring their concepts and products to life… To make people’s lives better. 
+                    I believe learning is a recursive function."
+
                 />
                         
                 <Details 
-                    position="Software Engineer" 
-                    company="Google" 
-                    companyLink="http://www.google.com"
-                    time="2022-Present" 
-                    address="Mountain View, CA" 
-                    work="Worked on a team responsible for developing new features for Google's 
-                    search engine, including improving the accuracy and relevance of search results and 
-                    developing new tools for data analysis and visualization."
+                    position="Software Engineer (CTO)" 
+                    company="Hexelan Technologies" 
+                    companyLink="http://hexelan.tech/"
+                    time="2022-2023" 
+                    address="Abuja, NGR" 
+                    work="I Developed and launched new data
+                    collection software
+                    products/applications, meeting
+                    user and stakeholder needs, as a
+                    key software engineer.
+                    I created data visualization
+                    tools that aided in conveying
+                    critical information of the
+                    collected data more effectively
+                    and convincingly."
                 />
 
                 <Details 
-                    position="Software Engineer" 
-                    company="Google" 
-                    companyLink="http://www.google.com"
-                    time="2022-Present" 
-                    address="Mountain View, CA" 
-                    work="Worked on a team responsible for developing new features for Google's 
-                    search engine, including improving the accuracy and relevance of search results and 
-                    developing new tools for data analysis and visualization."
+                    position="Web Development Facilitator (Volunteer)" 
+                    company="Kebbi IT Hub" 
+                    companyLink="https://www.africatechschools.com/school/kebbi-innovation-and-tech-hub/"
+                    time="2022-2022" 
+                    address="Birnin kebbi, NGR"
+                    work="Designed and delivered effective
+                    web development training programs,
+                    including curricula design, course
+                    materials, and engaging
+                    instruction that facilitated
+                    students and employees in skill
+                    development and goal achievement."
                 />
 
                 <Details 
-                    position="Software Engineer" 
-                    company="Google" 
-                    companyLink="http://www.google.com"
-                    time="2022-Present" 
-                    address="Mountain View, CA" 
-                    work="Worked on a team responsible for developing new features for Google's 
-                    search engine, including improving the accuracy and relevance of search results and 
-                    developing new tools for data analysis and visualization."
+                    position="IT Operations Manager" 
+                    company="Zamson Global Resources" 
+                    companyLink="/"
+                    time="2021-2022" 
+                    address="Sokoto, NGR" 
+                    work="Led IT projects (system upgrades,
+                        new software implementations and
+                        network expansions) to successful
+                        completion on time and within
+                        budget."
+                />
+                <Details 
+                    position="Deputy Director ICT" 
+                    company="Khadimiyya For Justice And Development Initiatives." 
+                    companyLink="/"
+                    time="2020-2021" 
+                    address="Birnin Kebbi, NGR" 
+                    work="I coached, mentored, and supported
+                    IT staffs, identified development
+                    opportunities, provided
+                    feedback, and recognized
+                    performance. I also developed data visualization
+                    systems to help communicate key
+                    messages."
+                />
+                <Details 
+                    position="Finance Assistant" 
+                    company="Opay" 
+                    companyLink="https://opay.ng/"
+                    time="2019-2020" 
+                    address="Sokoto, NGR" 
+                    work="I designed online invoicing system
+                    to automate financial processes
+                    and reduce manual work, cutting
+                    down processing time.
+                    
+                    I improved financial reporting by
+                    presenting data clearly and
+                    concisely, empowering management
+                    to make informed decisions.
+                    I implemented new policies around
+                    expense reimbursement that
+                    require receipts and approvals
+                    for all expenses."
                 />
             </ul>
         </div>

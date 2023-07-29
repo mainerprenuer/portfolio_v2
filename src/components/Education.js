@@ -62,7 +62,7 @@ const Education = () => {
                 /> */}
                 <Details
                     type="Online Coursework"
-                    time="2016-2020"
+                    time="2022-2023"
                     place="Coursera And EdX"
                     info="Completed coursework in advanced topics such as Reinforcement Learning, Computer Vision, and Machine 
                     Learning Engineering."

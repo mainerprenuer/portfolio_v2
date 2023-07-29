@@ -142,26 +142,26 @@ link="/"
                         link="/"
                     />
                     <Article 
-                        title="Form Validation In Reactjs: Build A Reusable Custom Hook For Inputs And Error Handling"
-                        date="July 17, 2023"
+                        title="Understanding the Role of Flutter in the Digital Age"
+                        date="Feb 26, 2023"
                         img={article3}
                         link="/"
                     />
                     <Article 
-                        title="Form Validation In Reactjs: Build A Reusable Custom Hook For Inputs And Error Handling"
-                        date="July 17, 2023"
+                        title="THE COMPLEX WORLD OF TECHNOLOGY: Exploring Programming and Software Engineering."
+                        date="Feb 19, 2023"
                         img={article3}
                         link="/"
                     />
                     <Article 
-                        title="Understanding the basics and key concepts of Object-Oriented Programming."
-                        date="July 17, 2023"
+                        title="How to Get Your First Job as a Self-Taught Programmer"
+                        date="Mar 22, 2023"
                         img={article3}
                         link="/"
                     />
                     <Article 
-                        title="Form Validation In Reactjs: Build A Reusable Custom Hook For Inputs And Error Handling"
-                        date="July 17, 2023"
+                        title="Understanding CRUD: The Key to Mastering Programming Concepts and Building Better Apps"
+                        date="March 22, 2023"
                         img={article2}
                         link="/"
                     />
