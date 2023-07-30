@@ -110,7 +110,7 @@ const Experience = () => {
                     company="Khadimiyya For Justice And Development Initiatives." 
                     companyLink="/"
                     time="2020-2021" 
-                    address="Birnin Kebbi, NGR" 
+                    address="Birnin Kebbi, Abuja, NGR" 
                     work="I coached, mentored, and supported
                     IT staffs, identified development
                     opportunities, provided
