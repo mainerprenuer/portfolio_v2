@@ -9,6 +9,7 @@ import project1 from "../../public/images/projects/farmplug.png"
 import project2 from "../../public/images/projects/portfolio2.jpg"
 import project3 from "../../public/images/projects/portfolio1.jpg"
 import project4 from "../../public/images/projects/islamia.png"
+import project5 from "../../public/images/projects/portfolio.png"
 import project0 from "../../public/images/projects/crypto-screener-cover-image.jpg"
 import { motion } from 'framer-motion'
 import TransitionEffect from '@/components/TransitionEffect'
@@ -178,10 +179,10 @@ type="Featured Project"
                 </div>
                 <div className='col-span-6 sm:col-span-12'>
                 <Project 
-title="Crypto Screener Application"
-img={project0}
-github="https://github.com/mainerprenuer"
-link=""
+title="React Portfolio Website"
+img={project5}
+github="https://github.com/mainerprenuer/portfolio"
+link="https://abokintech.vercel.app"
 type="Featured Project"
                     />
                 </div>
