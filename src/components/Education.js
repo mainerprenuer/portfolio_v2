@@ -53,13 +53,13 @@ const Education = () => {
                     info="Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, and Artificial 
                     Intelligence."
                 />
-                {/* <Details 
+                <Details 
                     type="Master Of Computer Science"
                     time="2020-2022"
                     place="Stanford University"
                     info="Completed a master's project on deep learning, developing a new neural network architecture for natural 
                     language understanding."
-                /> */}
+                />
                 <Details
                     type="Online Coursework"
                     time="2022-2023"
