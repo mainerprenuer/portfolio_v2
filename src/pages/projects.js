@@ -179,7 +179,7 @@ type="Featured Project"
                 </div>
                 <div className='col-span-6 sm:col-span-12'>
                 <Project 
-title="React Portfolio Website"
+title="React Portfolio Website V1"
 img={project5}
 github="https://github.com/mainerprenuer/portfolio"
 link="https://abokintech.vercel.app"
