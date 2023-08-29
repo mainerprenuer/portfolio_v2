@@ -49,8 +49,8 @@ const Experience = () => {
 
             <ul className='w-full flex flex-col items-start justify-between ml-4 xs:ml-2'>
                 <Details 
-                    position="Software Engineer" 
-                    company="Abokintech Inc." 
+                    position="Lead Software Engineer" 
+                    company="Micon Inc." 
                     companyLink="http://abokintech.vercel.app"
                     time="2023-Present" 
                     address="Remote, NGR" 
@@ -66,7 +66,7 @@ const Experience = () => {
                     companyLink="http://hexelan.tech/"
                     time="2022-2023" 
                     address="Abuja, NGR" 
-                    work="I Developed and launched new data
+                    work="I developed and launched new data
                     collection software
                     products/applications, meeting
                     user and stakeholder needs, as a
@@ -84,7 +84,7 @@ const Experience = () => {
                     companyLink="https://www.africatechschools.com/school/kebbi-innovation-and-tech-hub/"
                     time="2022-2022" 
                     address="Birnin kebbi, NGR"
-                    work="Designed and delivered effective
+                    work="I designed and delivered effective
                     web development training programs,
                     including curricula design, course
                     materials, and engaging
@@ -94,12 +94,12 @@ const Experience = () => {
                 />
 
                 <Details 
-                    position="IT Operations Manager" 
+                    position="IT Consultant" 
                     company="Zamson Global Resources" 
                     companyLink="/"
                     time="2021-2022" 
                     address="Sokoto, NGR" 
-                    work="Led IT projects (system upgrades,
+                    work="I led IT projects (system upgrades,
                         new software implementations and
                         network expansions) to successful
                         completion on time and within
