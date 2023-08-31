@@ -15,7 +15,7 @@ const Logo = () => {
           backgroundColor: ["#121212", "rgba(62,182,70,1)","rgba(240,242,242,1)","rgba(62,182,70,1)","rgba(240,242,242,1)", "#121212"],
           transition: {duration: 1, repeat: Infinity}
         }}
-        >mm</MotionLink>
+        >🤓</MotionLink>
     </div> 
   )
 }
