@@ -62,7 +62,7 @@ const Experience = () => {
                         
                 <Details 
                     position="Software Engineer (CTO)" 
-                    company="Hexelan Technologies" 
+                    company="Hexelan Consulting Ltd" 
                     companyLink="http://hexelan.tech/"
                     time="2022-2023" 
                     address="Abuja, NGR" 

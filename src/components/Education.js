@@ -50,8 +50,9 @@ const Education = () => {
                     type="Bachelor Of Science In Computer Science" 
                     time="2014-2019" 
                     place="Usmanu Danfodiyo University Sokoto (UDUS)" 
-                    info="Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, and Artificial 
-                    Intelligence."
+                    info="Relevant courses included Data Structures and Algorithms,
+                        Computer Systems Engineering, System Analysis and Design, 
+                        and Artificial Intelligence among others."
                 />
                 {/* <Details 
                     type="Master Of Computer Science"
