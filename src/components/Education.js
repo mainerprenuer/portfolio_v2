@@ -65,8 +65,8 @@ const Education = () => {
                     type="Online Coursework"
                     time="2022-2023"
                     place="Coursera And EdX"
-                    info="Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, System 
-                    Analysis and Design, and Artificial Intelligence among others."
+                    info="Working on coursework in advanced topics such as Reinforcement Learning, Computer Vision, and Machine 
+                    Learning Engineering."
                 />
                 
             </ul>
