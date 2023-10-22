@@ -159,7 +159,7 @@ const articles = () => {
                     />
                     <Article 
                         title="Understanding CRUD: The Key to Mastering Programming Concepts and Building Better Apps"
-                        date="March 22, 2023"
+                        date="Jan 01, 2023"
                         img={article2}
                         link="/"
                     />
