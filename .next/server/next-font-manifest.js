@@ -1,7 +1,7 @@
 self.__NEXT_FONT_MANIFEST={
   "pages": {
     "/_app": [
-      "static/media/1060bab20f18b5c2-s.p.woff2"
+      "static/media/4f05ba3a6752a328-s.p.woff2"
     ]
   },
   "app": {},

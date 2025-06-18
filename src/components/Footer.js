@@ -11,12 +11,12 @@ const Footer = () => {
             <span>{new Date().getFullYear()} &copy; All Rights Reserved.</span>
             <div className='flex items-center lg:py-2'>
               Build With <span className='text-primary dark:text-primaryDark text-2xl px-1'>&#9825;</span> 
-              by&nbsp;<Link href="moustymainer.vercel.app" className='underline
+              by&nbsp;<Link href="/" className='underline
               underline-offset-2
-              ' target={"_blank"}>Mousty Mainer</Link>
+              ' target={"_blank"}>Mustapha Abubakar</Link> 
             </div>
-            <Link href="https://api.whatsapp.com/send?phone=+2347031343181" target="_blank" className='underline
-              underline-offset-2'>Say hello</Link>
+            <Link href="https://wa.me/+2347031343181" target="_blank" className='underline
+              underline-offset-2'>Say hello👋 </Link>
         </Layout>
     </footer>
   )

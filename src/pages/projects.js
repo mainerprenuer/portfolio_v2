@@ -6,11 +6,11 @@ import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 import project1 from "../../public/images/projects/farmplug.png"
-import project2 from "../../public/images/projects/portfolio2.jpg"
+import project2 from "../../public/images/projects/portfolio2.png"
 import project3 from "../../public/images/projects/portfolio1.jpg"
 import project4 from "../../public/images/projects/islamia.png"
 import project5 from "../../public/images/projects/portfolio.png"
-import project0 from "../../public/images/projects/crypto-screener-cover-image.jpg"
+import project0 from "../../public/images/projects/crypto-screener-cover-image.png"
 import { motion } from 'framer-motion'
 import TransitionEffect from '@/components/TransitionEffect'
 
@@ -116,7 +116,7 @@ const projects = () => {
   return (
     <>
         <Head>
-        <title>Mousty Mainer</title>
+        <title>Mustapha Abubakar</title>
         <meta name="Mousty Mainer" content="My Developer's Journey" />
       </Head>
       <TransitionEffect />
@@ -141,19 +141,19 @@ type="Featured Project"
                 </div>
                 <div className='col-span-6 sm:col-span-12'>
                 <Project 
-title="Campaign Social Network"
+title="Veterinary Pet Management System"
 img={project2}
-github="https://github.com/mainerprenuer/malami-connect"
-link=""
+github="https://github.com/mainerprenuer/ipet-client"
+link="https://ipet-test.vercel.app/"
 type="Featured Project"
                     />
                 </div>
                 <div className='col-span-6 sm:col-span-12'>
                 <Project 
-title="Islamiyya"
+title="Kebbi Innovation and Tech Hub LMS"
 img={project4}
-github="https://github.com/mainerprenuer/islamiyya"
-link="https://mainerprenuer.github.io/islamiyya/"
+github="https://github.com/mainerprenuer/kebbitechhub"
+link="https:kebbiithub.vercel.app"
 type="Featured Project"
                     />
                 </div>
@@ -188,10 +188,10 @@ type="Featured Project"
                 </div>
                 <div className='col-span-6 sm:col-span-12'>
                 <Project 
-title="Crypto Screener Application"
+title="Chat With Aboki AI"
 img={project0}
-github="https://github.com/mainerprenuer"
-link=""
+github="https://github.com/mainerprenuer/chat-aboki"
+link="https://chat-aboki.vercel.app"
 type="Featured Project"
                     />
                 </div>

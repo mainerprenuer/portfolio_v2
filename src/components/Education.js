@@ -54,19 +54,29 @@ const Education = () => {
                         Computer Systems Engineering, System Analysis and Design, 
                         and Artificial Intelligence among others."
                 />
-                {/* <Details 
-                    type="Master Of Computer Science"
-                    time="2020-2022"
-                    place="Stanford University"
-                    info="Completed a master's project on deep learning, developing a new neural network architecture for natural 
-                    language understanding."
-                /> */}
+               
                 <Details
                     type="Online Coursework"
                     time="2022-2023"
                     place="Coursera And EdX"
                     info="Working on coursework in advanced topics such as Reinforcement Learning, Computer Vision, and Machine 
                     Learning Engineering."
+                />
+
+                <Details 
+                    type="NYSC (National Youth Service Corps)"
+                    time="2024-2025"
+                    place="Millenium Schools, Kano"
+                    info="Computer Science Teacher and IT Support, where I taught computer science subjects and provided IT support
+                    to the school community."
+                />
+
+                 <Details 
+                    type="Agentic AI, Gen AI, and RL"
+                    time="2025-present"
+                    place="Udemy"
+                    info="Building a project on deep learning, developing a new neural network architecture for natural 
+                    language understanding."
                 />
                 
             </ul>

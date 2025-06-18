@@ -48,10 +48,27 @@ const Experience = () => {
     '/>
 
             <ul className='w-full flex flex-col items-start justify-between ml-4 xs:ml-2'>
+               
+                <Details 
+                    position="Business Development Manager" 
+                    company="Kebbi Innovation & Tech Hub" 
+                    companyLink="https://kebbiithub.vercel.app/"
+                    time="2024-Present" 
+                    address="Birnin kebbi, NGR"
+                    work="I'm building a learning management
+                    system that'll deliver effective
+                    training programs,
+                    including curricula design, course
+                    materials, and engaging
+                    instruction that facilitated
+                    students and employees in skill
+                    development and goal achievement."
+                />
+
                 <Details 
                     position="Lead Software Engineer" 
                     company="Micon Inc." 
-                    companyLink="http://abokintech.vercel.app"
+                    companyLink="/"
                     time="2023-Present" 
                     address="Remote, NGR" 
                     work="I'm working at the intersection of design, brand, code, strategy and content; 
@@ -76,21 +93,6 @@ const Experience = () => {
                     critical information of the
                     collected data more effectively
                     and convincingly."
-                />
-
-                <Details 
-                    position="Web Development Facilitator (Volunteer)" 
-                    company="Kebbi IT Hub" 
-                    companyLink="https://www.africatechschools.com/school/kebbi-innovation-and-tech-hub/"
-                    time="2022-2022" 
-                    address="Birnin kebbi, NGR"
-                    work="I designed and delivered effective
-                    web development training programs,
-                    including curricula design, course
-                    materials, and engaging
-                    instruction that facilitated
-                    students and employees in skill
-                    development and goal achievement."
                 />
 
                 <Details 
